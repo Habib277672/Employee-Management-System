@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+* {
+  color: #fff;
+}
+
+html,
+body {
+  background-color: #111;
+  scroll-behavior: smooth;
+}
+
+#tasklist::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
