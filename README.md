@@ -5,7 +5,7 @@ Employee Management System (EMS) is a web-based application built with React.js 
 
 This project demonstrates practical implementation of React fundamentals including component-based architecture, state management, controlled forms, and browser storage handling.
 
-🚀 Features
+🚀 Features :
 
 ➕ Add new employees
 
@@ -31,4 +31,4 @@ HTML5
 
 CSS3
 
-Browser LocalStorage API
+Browser LocalStorage API.
