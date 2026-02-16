@@ -21,7 +21,7 @@ export const CreateTask = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    const data = userData;
+    const data = userData || [];
 
     data.forEach((element) => {
       // console.log(element, newTask);

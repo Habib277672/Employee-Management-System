@@ -12,7 +12,7 @@ if (typeof window !== "undefined") {
 }
 
 export const AuthProvider = ({ children }) => {
-  const [userData, setUserData] = useState(null);
+  const [userData, setUserData] = useState([]);
   // localStorage.clear();
 
   useEffect(() => {

@@ -10,7 +10,7 @@ export const TaskList = ({ data }) => {
       id="tasklist"
       className="h-[55%] w-full overflow-x-auto flex items-center justify-start gap-5 flex-nowrap py-5 mt-10 p-1"
     >
-      {data.tasks.map((elem, index) => {
+      {data?.tasks?.map((elem, index) => {
         if (elem.active) {
           return <AcceptTask key={index} data={elem} />;
         }
